@@ -1,0 +1,100 @@
+body{
+	background: black;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	width: 270px;
+	box-shadow: 0 0 4px 2px white;
+}
+
+.avatar{
+	font-size: 50px;
+	background: #bdc3c7;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+
+.login h2{
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	letter-spacing: 5px;
+}
+
+.box-login{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	border-bottom: solid 2px white;
+	padding: 8px 0;
+}
+
+.box-login i{
+	font-size: 20px;
+	color: white;
+}
+
+.box-login input{
+	width: 100%;
+	padding: 0 10px;
+	background: none;
+	border: none;
+	outline: none;
+	color: white;
+}
+
+.box-login input::placeholder{
+	color: white;
+}
+
+.btn-login{
+	width: 100%;
+	background: none;
+	padding: 15px;
+	border: 1px solid white;
+	font-size: 18px;
+	letter-spacing: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.btn-login:hover{
+	color: black;
+	background: white;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.bottom a{
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.bottom a:hover{
+	text-decoration: underline;
+}
