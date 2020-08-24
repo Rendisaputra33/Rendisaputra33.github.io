@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  height: 100vh;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; 
+  scroll-behavior: smooth;
+}
+
+.lead {
+  font-size: 1.3rem;
+  color: #C8C5C5;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background: #f7f7f7;
+  border-bottom: solid 0.7px #cccccc;
+}
+
+.navbar ul ul {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 1130px;
+  width: 125px;
+  height: 110px;
+}
+
+.navbar ul li ul li {
+  text-align: center;
+  border-bottom: solid 1px grey;
+  border-top: solid 1px grey;
+  width: 100%;
+  height: 25px;
+  background: #ededed;
+}
+
+.navbar ul li:hover ul{
+  display: block;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  padding: 1rem;
+
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #48474C;
+  display: block;
+}
+
+.navbar ul li a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  margin-top: 5px;
+  transition: width .3s;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  color: black;
+  scroll-snap-align: center;
+  border-bottom: solid 30px black; 
+}
+
+section h1 {
+  font-size: 4rem;
+}
+.content {
+  font-family: sans-serif;
+  font-size: 10px;
+  text-align: center;
+  z-index: 5;
+}
+
+section#home {
+  background: url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80') no-repeat center center/cover;;
+}
+
+section#about {
+  background: url('https://images.unsplash.com/photo-1488998527040-85054a85150e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;;
+}
+
+section#service {
+  background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;;
+}
+
+section#contact {
+  background: url('https://www.alliancecoatingsystems.com/wp-content/uploads/2016/05/contact-background-1.jpg') no-repeat center center/cover;;
+}

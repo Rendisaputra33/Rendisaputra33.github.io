@@ -1,6 +1,8 @@
 JNF
 -membuat frontend login
--membuat frontend signup
+-membuat validasi login
+-membuat frontend sign up
+-membuat backend sign up
 -membuat frontend abaout
 -membuat frontend contact
 -membuat frontend index

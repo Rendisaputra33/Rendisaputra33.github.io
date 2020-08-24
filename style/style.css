@@ -1,11 +1,10 @@
 body{
-	background: black;
+	background: url(https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg);
 	margin: 0;
 	padding: 0;
 	background-size: cover;
-	background-position: center;
+	background-position: fixed;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	font-family: sans-serif;
 }
 

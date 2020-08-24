@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>login</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="view" content="widht=divice-widht, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style/home.css">
 </head>
 <body>
-	<div class="login">
-		<div class="avatar">
-			<i class="fa fa-user"></i>
-		</div>
-
-		<h2>login</h2>
-		<div class="box-login">
-			<i class="fas fa-envelope"></i>
-			<input type="text" name="Email" placeholder="Email">
-		</div>
-
-		<div class="box-login">
-			<i class="fas fa-lock"></i>
-			<input type="Password" name="Password" placeholder="Password">
-		</div>
-
-		<button type="submit" class="btn-login">
-			Login
-		</button>
-		<div class="bottom">
-			<a href="#">Daftar</a>
-			<a href="#">Lupa Password?</a>
-		</div>
-
+	<div class="container">
+	  <nav class="navbar">
+	      <ul>
+	          <li><a href="#home">Intro</a></li>
+	          <li><a href="#about">Tentang</a></li>
+	          <li><a href="#service">Layanan</a></li>
+	          <li><a href="#contact">Hubungi</a></li>
+	          <li><a href="">CARI PEKERJAAN</a>
+	          	<ul>
+	          		<li><a href="login.html">sign in</a></li>
+	          		<li><a href="daftar.html">sign up</a></li>
+	          	</ul>
+	          </li>
+	        </ul>
+	      </nav>
+	  <section id="home">
+	  	<div class="content">
+	   		<h1>Welcome to JNF</h1><br><br>
+	    	<p class="lead"></p>
+	    </div>
+	  </section>
+	  <section id="about">
+	  	<div class="content">
+	      <h1>APA ITU JNF</h1>
+	      <p class="lead"></p>
+	    </div>
+	  </section>
+	  <section id="service">
+	  	<div class="content">
+	      <h1>Layanan</h1>
+	      <p class="lead"></p>
+	    </div>
+	  </section>
+	  <section id="contact">
+	  	<div class="content">
+	      <h1>Hubungi</h1>
+	      <p class="lead"></p>
+	    </div>
+	  </section>
 	</div>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<script type="text/javascript" src="js/home.js"></script>
 
 </body>
 </html>
